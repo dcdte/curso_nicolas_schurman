@@ -2,7 +2,14 @@ body {
   background-color: #eee;
 }
 
-.caja {
-  margin: 8px;
-  background-color: #0000ff;
+p {
+  color: #222fff;
+  font-style: oblique;
+  font-size: 1.5em;
+  text-align: left;
+  text-indent: 35px;
+  line-height: 1.6;
+  word-spacing: 10px;
+  text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Times New Roman', Times, serif;
 }
