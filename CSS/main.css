@@ -2,21 +2,24 @@ body {
   background-color: #eee;
 }
 
-a {
-  color: hotpink;
+table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
 }
 
-a:link {
-  color: pink;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-a:visited {
-  color: blue;
-}
-a:hover {
-  color: gray;
+td {
+  border: 1px solid #ddd; 
+  padding: 8px;
 }
 
-a:active {
-  color: black;
+table th {
+  background-color: #4CAF50;
+  color: white; 
+  text-align: left;
+  padding: 12px 8px; ;
 }
